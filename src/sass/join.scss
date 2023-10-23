@@ -1,0 +1,44 @@
+.join-section {
+  margin-bottom: 70px;
+}
+
+.join-icon {
+  margin-bottom: 12px;
+}
+
+.join-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.join-item {
+}
+
+.join-title {
+  color: #0d0f12;
+  // font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.join-subtitle {
+  color: #020305;
+  //   font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.join-text {
+  color: #171e27;
+  //   font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.71;
+}
