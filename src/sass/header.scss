@@ -1,26 +1,21 @@
 .header {
-    height: 72px;
+  height: 72px;
+  min-width: 375px;
+  max-width: 425px;
+  margin: 0 auto;
 }
 
 .mobile-header {
-    height: 72px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    margin:0;
-    padding: 0px 24px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0;
+  padding: 0px 24px;
 }
 
-.modal-btn { 
-    border: none;
-    background-color: transparent;
+.modal-btn {
+  border: none;
+  background-color: transparent;
 }
-
-// .header-logo { 
-
-// }
-
-
-// .header-mobile-modal-icon {
-// }

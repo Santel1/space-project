@@ -1,6 +1,5 @@
 .about-section {
   position: relative;
-  padding-top: 30px;
 }
 .about-container-q {
   position: relative;
@@ -27,7 +26,8 @@
 .about-astronaut-img {
   position: absolute;
   top: 176px;
-  left: 41px;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .about-block-1 {
@@ -41,7 +41,7 @@
   padding: 12px;
   position: absolute;
   top: 307px;
-  right: 24px;
+  right: 0;
   border-radius: 24px;
   box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25),
     0px 20px 39px -12px rgba(99, 117, 124, 0.4);
@@ -54,7 +54,7 @@
   flex-wrap: wrap;
   gap: 12px;
   top: 390px;
-  left: 24px;
+  left: 0;
   width: 172px;
   height: 117px;
   padding: 12px;
@@ -85,7 +85,8 @@
   flex-wrap: wrap;
   gap: 12px;
   top: 580px;
-  left: 24px;
+  left: 50%;
+  transform: translate(-50%, 0%);
   width: 318px;
   height: 88px;
   padding: 10px;

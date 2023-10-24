@@ -7,57 +7,58 @@ h5,
 h6,
 ul,
 li {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 button {
-    border: none;
-    cursor: pointer;
+  border: none;
+  cursor: pointer;
 }
 
 img,
 picture,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
-    background-color: #f6f6f6;
+  background-color: #f6f6f6;
 }
 
 body body {
-    font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /* media rules */
 .container {
-    width: 425px;
-    margin: 0 auto;
-    padding: 0 24px;
+  min-width: 375px;
+  max-width: 425px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding: 0 32px;
-    }
+  .container {
+    width: 768px;
+    padding: 0 24px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .container {
-        width: 1440px;
-        padding: 0 24px;
-    }
+  .container {
+    width: 1440px;
+    padding: 0 24px;
+  }
 }
