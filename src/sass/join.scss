@@ -2,6 +2,13 @@
   margin-bottom: 70px;
 }
 
+@media screen and (min-width: 768px) {
+  .join-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .join-icon {
   margin-bottom: 12px;
 }
@@ -11,7 +18,24 @@
   flex-direction: column;
   gap: 40px;
 }
+
+@media screen and (min-width: 768px) {
+  .join-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .join-item {
+}
+
+@media screen and (min-width: 768px) {
+  .join-item {
+    width: 300px;
+  }
 }
 
 .join-title {

@@ -4,7 +4,14 @@
   margin-bottom: 70px;
 }
 
+@media screen and (min-width: 768px) {
+  .education-section {
+    height: 550px;
+  }
+}
+
 .education-title {
+  // position: relative;
   color: #fff;
   // font-family: Plus Jakarta Sans;
   font-size: 32px;
@@ -13,12 +20,33 @@
   line-height: normal;
   margin-bottom: 40px;
 }
+
+@media screen and (min-width: 768px) {
+  .education-title {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+}
+
 .education-list {
+  // position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 24px;
 }
+@media screen and (min-width: 768px) {
+  .education-list {
+    position: absolute;
+    top: 200px;
+    flex-direction: row;
+    gap: 10;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
+
 .education-item {
   width: 327px;
   height: 258px;
@@ -27,6 +55,14 @@
   background: #fff;
   box-shadow: 0px 20px 39px -12px rgba(99, 117, 124, 0.2);
 }
+
+@media screen and (min-width: 768px) {
+  .education-item {
+    width: 220px;
+    height: 330px;
+  }
+}
+
 .education-step {
   color: #a9c2cb;
   // font-family: Plus Jakarta Sans;
@@ -63,6 +99,16 @@
   margin-left: -24px;
   margin-right: -24px;
 }
+@media screen and (min-width: 768px) {
+  .image-container {
+    max-width: 768px;
+    height: 381px;
+    margin: 0 auto;
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 24px;
+  }
+}
 
 .image-bgc-education {
   display: block;
@@ -70,4 +116,11 @@
   height: 100%;
   object-fit: cover;
   object-position: 2%;
+}
+
+@media screen and (min-width: 768px) {
+  .image-bgc-education {
+    border-radius: 40px;
+    object-position: center;
+  }
 }
