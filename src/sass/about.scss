@@ -333,6 +333,13 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: color, background-color 0.3s;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+  background-color: #b0c4de;
+  color: black;
 }
 
 @media screen and (min-width: 1440px) {
@@ -354,6 +361,15 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: all 0.3s;
+  fill: black;
+  stroke: white;
+}
+
+.about-video-link:hover,
+.about-video-link:focus {
+  color: #b0c4de;
+  fill: #a9c2cb;
 }
 
 @media screen and (min-width: 1440px) {
@@ -369,6 +385,16 @@
   justify-content: space-around;
   row-gap: 24px;
   margin-bottom: 70px;
+}
+
+.company-logo {
+  fill: #757575;
+  transition: fill 0.3s;
+}
+
+.company-logo:hover,
+.company-logo:focus {
+  fill: #b0c4de;
 }
 
 @media screen and (min-width: 1440px) {

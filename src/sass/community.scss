@@ -123,6 +123,7 @@
   .community-input {
     padding: 26px 32px;
     width: 649px;
+    font-size: 24px;
   }
 }
 
@@ -154,6 +155,11 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: background-color 0.3s;
+}
+
+.community-btn:hover {
+  background-color: #912828;
 }
 
 @media screen and (min-width: 768px) {
